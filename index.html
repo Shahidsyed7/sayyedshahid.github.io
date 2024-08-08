@@ -3,82 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Sayyed Shahid - Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #2a2a72, #009ffd);
+            color: #fff;
             margin: 0;
             padding: 0;
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #f0f4f8, #ffffff); /* Light gradient background */
-            color: #333;
         }
-
-        header {
-            padding: 20px;
-            background: #ffffff; /* White background for header */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-            text-align: center;
-        }
-
         .container {
-            width: 80%;
-            margin: auto;
-            padding: 40px 20px;
-            background: #ffffff; /* White background for content */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-            border-radius: 8px; /* Rounded corners */
+            margin-top: 80px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 8px;
         }
-
-        h1 {
-            color: #2c3e50; /* Darker text color for headings */
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        p {
-            color: #7f8c8d; /* Light grey text color */
-            line-height: 1.6;
-            font-size: 1.1em;
-        }
-
-        footer {
-            padding: 20px;
-            background: #ffffff; /* White background for footer */
+        .header {
             text-align: center;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin-bottom: 40px;
         }
-
-        @media (max-width: 768px) {
-            .container {
-                width: 95%;
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 2em;
-            }
-
-            p {
-                font-size: 1em;
-            }
+        .header h1 {
+            font-size: 3.5em;
+            color: #e0e0e0;
+        }
+        .header p {
+            font-size: 1.5em;
+            color: #d1d1d1;
+        }
+        .links a {
+            color: #00bfae;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .portfolio {
+            text-align: center;
+            font-size: 1.5em;
+            color: #e0e0e0;
+            margin-top: 30px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .footer p {
+            margin-bottom: 10px;
+            color: #d1d1d1;
+        }
+        .footer a {
+            color: #00bfae;
+            margin: 0 15px;
+            font-size: 2em;
+        }
+        .footer a:hover {
+            color: #00a79d;
+        }
+        .footer .fa {
+            transition: color 0.3s;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Sayyed Shahid's Portfolio</h1>
-    </header>
 
     <div class="container">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim. Vivamus ac urna arcu. Sed bibendum, quam nec pretium fermentum, eros libero gravida nulla, eget vehicula ipsum odio in urna.</p>
-
-        <h2>Projects</h2>
-        <p>Curabitur ultrices dolor non magna tempor, a facilisis lorem vestibulum. Ut tincidunt nisl et quam interdum, id dapibus augue fringilla. Aliquam erat volutpat.</p>
+        <div class="header">
+            <h1>Sayyed Shahid</h1>
+            <p>Data Analytics Portfolio</p>
+        </div>
+        <div class="links text-center">
+            <a href="https://github.com/Shahidsyed7" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/sayyed-shahid-314751215" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+        <div class="portfolio">
+            <p>Portfolio: Coming Soon...</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Sayyed Shahid</p>
+            <a href="https://github.com/Shahidsyed7" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sayyed-shahid-314751215" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Sayyed Shahid. All rights reserved.</p>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
